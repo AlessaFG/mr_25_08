@@ -19,8 +19,8 @@ class ImprovedObjectAvoidanceNode(Node):
         )
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
 
-        # Parametri di Evitamento
-        self.safe_distance = 0.5  # Distanza di sicurezza (metri)
+        # Parametri 
+        self.safe_distance = 0.5  # Distanza di sicurezza 
         self.forward_speed = 0.2  # Velocità lineare quando si procede
         self.turn_speed = 0.5     # Velocità angolare di rotazione
 
@@ -28,53 +28,21 @@ class ImprovedObjectAvoidanceNode(Node):
     
     def get_sector_min(self, ranges, start_angle, end_angle, angle_increment):
         """Calcola la distanza minima in un settore dello scan."""
-        # Converte gli angoli (gradi) in indici del vettore ranges
-        # L'indice 0 di ranges corrisponde all'angolo start_angle_rad (di solito -180 gradi o 0)
-        
-        # Supponendo che il LiDAR copra 360 gradi o che il centro sia 0 gradi
-        # e i range siano ordinati angolarmente.
-        
-        # Nota: La conversione qui è generica; se lo scan ha un angolo iniziale (angle_min)
-        # diverso da -pi (o 0), la logica di indicizzazione deve essere più robusta.
-        
-        # Per semplicità e robustezza: usiamo i primi e gli ultimi N elementi (se 360 gradi)
-        # o filtriamo se non copriamo 360 gradi.
-        
-        # Se il LiDAR è frontale (0° al centro):
-        # I primi elementi e gli ultimi elementi (vicino a 0°) sono il settore centrale/frontale.
-        # I settori laterali corrispondono agli angoli 90° e -90°.
-
-        # --- Logica Semplificata per il 2D (settore Frontale, Sinistro, Destro) ---
-        
-        # Se il LiDAR copre 360 gradi (es. 720 punti)
         num_ranges = len(ranges)
         
-        # Esempio per 360 gradi, 720 punti (0 gradi al centro, -180° a sinistra, +180° a destra)
-        # 1. Settore Centrale (Frontale)
-        #    Corrisponde agli angoli vicini a 0 gradi. Es: -30 a +30 gradi
-        # 2. Settore Destro
-        #    Corrisponde agli angoli negativi. Es: -90 a -30 gradi
-        # 3. Settore Sinistro
-        #    Corrisponde agli angoli positivi. Es: +30 a +90 gradi
-        
-        # Se 720 punti: 720 / 360 = 2 punti per grado
-        # Frontale (60 gradi): 60 * 2 = 120 punti. Dagli indici (720/2 - 60) a (720/2 + 60)
-        
-        # Poiché il tuo codice originale usava solo il minimo, useremo una semplice suddivisione in 3 zone
-        # che funziona per la maggior parte delle configurazioni standard.
+ 
         
         sector_size = num_ranges // 3
         
-        if start_angle == 'left': # 1/3 dei dati (es. indici da 0 a sector_size)
+        if start_angle == 'left': # 1/3 dei dati 
             sector_ranges = ranges[:sector_size]
-        elif start_angle == 'center': # 1/3 dei dati (es. indici da sector_size a 2*sector_size)
+        elif start_angle == 'center': # 1/3 dei dati 
             sector_ranges = ranges[sector_size:2 * sector_size]
-        elif start_angle == 'right': # 1/3 dei dati (es. indici da 2*sector_size a num_ranges)
+        elif start_angle == 'right': # 1/3 dei dati 
             sector_ranges = ranges[2 * sector_size:]
         else:
-            return float('inf') # Caso non previsto
+            return float('inf') 
             
-        # Filtra i valori 'inf' (fuori portata o non validi) prima di calcolare il minimo
         filtered_ranges = [r for r in sector_ranges if r < msg.range_max and r > msg.range_min]
         
         if not filtered_ranges:
@@ -83,29 +51,12 @@ class ImprovedObjectAvoidanceNode(Node):
         return min(filtered_ranges)
 
     def lidar_callback(self, msg: LaserScan):
-        # 1. Suddividi lo scan in 3 settori (Destra, Centro, Sinistra)
-        # La logica esatta dipende dall'orientamento e dal range angolare del tuo LiDAR.
-        # Qui useremo una suddivisione per indici, che è più generica (ma meno precisa se lo scan
-        # non è allineato perfettamente).
+        # 1. Suddivido lo scan in 3 settori (Destra, Centro, Sinistra)
+    
         
         ranges = msg.ranges
         num_ranges = len(ranges)
         
-        # Per i LiDAR a 360 gradi (es. Turtlebot, ecc.), le misure frontali sono divise tra la fine e l'inizio dell'array.
-        # Per semplificare l'esempio e mantenerlo vicino al tuo originale, uso 3 settori sequenziali:
-        
-        # Zona 1: Centro-Destra (es. Indici 0 - 240)
-        # Zona 2: Centro-Frontale (es. Indici 240 - 480)
-        # Zona 3: Centro-Sinistra (es. Indici 480 - 720)
-        
-        # Nota: La configurazione corretta per la maggior parte dei LiDAR ROS a 360°
-        # con 0 gradi in avanti è:
-        # * Sinistra: Indici 0 -> N/4
-        # * Centro: Indici (3N/8 -> N/2) + (N/2 -> 5N/8) -- Molto complicato da implementare semplicemente
-        # * Destra: Indici 3N/4 -> N
-
-        # Per un robot che guarda in avanti (0 gradi), supponiamo che i range siano ordinati 
-        # con 0 al centro, -180 a destra e +180 a sinistra.
         
         # Assumiamo una suddivisione più intuitiva (che richiede di conoscere l'indice centrale):
         center_idx = num_ranges // 2
@@ -126,7 +77,8 @@ class ImprovedObjectAvoidanceNode(Node):
         min_right = self._get_min_range(right_ranges, msg.range_max, msg.range_min)
         min_left = self._get_min_range(left_ranges, msg.range_max, msg.range_min)
         
-        # 2. Logica di Decisone (FSM Semplice)
+        self.get_logger().info(f'Distanze minime: Centro={min_center:.2f}m, Destra={min_right:.2f}m, Sinistra={min_left:.2f}m')
+     
         twist_msg = Twist()
         
         # Priorità: Evita Ostacolo Frontale
@@ -138,30 +90,30 @@ class ImprovedObjectAvoidanceNode(Node):
             if min_right > min_left:
                 # Più spazio a destra: Gira a destra (angolare negativo)
                 twist_msg.angular.z = -self.turn_speed
-                self.get_logger().warn('Obstacle Frontal: Turning Right')
+                self.get_logger().warn('🚨 OST. FRONTALE: Gira a DESTRA')
             else:
                 # Più spazio a sinistra: Gira a sinistra (angolare positivo)
                 twist_msg.angular.z = self.turn_speed
-                self.get_logger().warn('Obstacle Frontal: Turning Left')
+                self.get_logger().warn('🚨 OST. FRONTALE: Gira a SINISTRA')
 
         # Controllo laterale mentre si procede
         elif min_right < self.safe_distance:
              # Ostacolo a destra: Sterza leggermente a sinistra
             twist_msg.linear.x = self.forward_speed / 2
             twist_msg.angular.z = self.turn_speed / 2
-            self.get_logger().info('Obstacle Right: Steering Left')
+            self.get_logger().info('⚠️ Ost. DESTRA: Sterza a sinistra')
 
         elif min_left < self.safe_distance:
             # Ostacolo a sinistra: Sterza leggermente a destra
             twist_msg.linear.x = self.forward_speed / 2
             twist_msg.angular.z = -self.turn_speed / 2
-            self.get_logger().info('Obstacle Left: Steering Right')
+            self.get_logger().info('⚠️ Ost. SINISTRA: Sterza a destra')
             
         else:
             # Nessun ostacolo rilevante: Prosegui dritto
             twist_msg.linear.x = self.forward_speed
             twist_msg.angular.z = 0.0
-            self.get_logger().info('Path Clear: Moving Forward')
+            self.get_logger().info('✅ Percorso Libero: Avanti')
 
         # 3. Pubblica il messaggio
         self.publisher.publish(twist_msg)
