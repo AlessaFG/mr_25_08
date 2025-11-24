@@ -1,0 +1,62 @@
+
+FROM stereolabs/zed:5.0-gl-devel-cuda12.8-ubuntu22.04 
+
+# -------------------------------------------------------------------------
+# VARIABILI D'AMBIENTE
+# -------------------------------------------------------------------------
+
+# Definisce la distribuzione ROS 2 da installare.
+ENV ROS_DISTRO=humble
+# Imposta le locale per garantire una corretta installazione dei pacchetti.
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+
+# -------------------------------------------------------------------------
+# INSTALLAZIONE: ROS 2 Humble e Dipendenze
+# -------------------------------------------------------------------------
+
+RUN apt-get update -y && \
+    # Installa strumenti di base necessari per l'aggiunta del repository.
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+        tzdata \
+        curl \
+        wget \
+        gnupg \
+        lsb-release \
+    # Aggiunge il repository ROS 2
+    && curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc \
+    | gpg --dearmor -o /usr/share/keyrings/ros-archive-keyring.gpg \
+    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] \
+    http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" \
+    > /etc/apt/sources.list.d/ros2.list \
+    \
+    # Aggiorna l'indice dei pacchetti dopo l'aggiunta del repository ROS 2
+    && apt-get update -y \
+    # Installa ROS 2 Desktop Full e strumenti di sviluppo
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+        ros-$ROS_DISTRO-desktop-full \
+        ros-$ROS_DISTRO-vision-msgs \
+        ros-$ROS_DISTRO-ament-cmake-auto \
+        build-essential \
+        python3-rosdep \
+        cmake \
+        python3-colcon-common-extensions \
+        usbutils \
+        libusb-1.0-0-dev \
+        git \
+        --no-install-recommends \
+    \
+    # Pulisce la cache APT per ridurre le dimensioni dell'immagine
+    && rm -rf /var/lib/apt/lists/*
+
+# -------------------------------------------------------------------------
+# CONFIGURAZIONE FINALE
+# -------------------------------------------------------------------------
+
+# Inizializza e aggiorna lo strumento rosdep per la gestione delle dipendenze
+RUN rosdep init && \
+    rosdep update
+
+# SUGGERIMENTO: Aggiungi un punto di ingresso (ENTRYPOINT/CMD) se necessario,
+# ad esempio per avviare uno shell o un programma specifico all'avvio del container.
+# Esempio: CMD ["/bin/bash"]

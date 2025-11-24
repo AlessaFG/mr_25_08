@@ -1,1 +1,1 @@
-docker build --rm -t ros:isaac -f Dockerfile.isaac .
+docker build -t zed-ros2-humble -f Dockerfile.ros2-humble .
