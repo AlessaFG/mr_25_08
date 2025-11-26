@@ -1,0 +1,1 @@
+/root/ros_workspace/build/zed_robot_integration/ament_cmake_environment_hooks/local_setup.bash

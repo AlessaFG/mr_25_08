@@ -1,0 +1,4 @@
+source;share/zed_isaac_ros_april_tag/local_setup.bash
+source;share/zed_isaac_ros_april_tag/local_setup.dsv
+source;share/zed_isaac_ros_april_tag/local_setup.sh
+source;share/zed_isaac_ros_april_tag/local_setup.zsh

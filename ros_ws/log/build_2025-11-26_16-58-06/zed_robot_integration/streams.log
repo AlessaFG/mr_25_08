@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/root/ros_workspace/build/zed_robot_integration': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_robot_integration -- -j24 -l24
+[0.044s] Invoked command in '/root/ros_workspace/build/zed_robot_integration' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_robot_integration -- -j24 -l24
+[0.045s] Invoking command in '/root/ros_workspace/build/zed_robot_integration': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_robot_integration
+[0.057s] -- Install configuration: "Release"
+[0.057s] -- Execute custom install script
+[0.057s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration//launch/view_dual_zed.launch.py
+[0.057s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration//launch/view_mono_zed.launch.py
+[0.057s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration//urdf/zed_robot_dual.urdf.xacro
+[0.057s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration//urdf/zed_robot_mono.urdf.xacro
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration//rviz2/view_config.rviz
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/ament_index/resource_index/package_run_dependencies/zed_robot_integration
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/ament_index/resource_index/parent_prefix_path/zed_robot_integration
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/environment/path.sh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/environment/path.dsv
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/local_setup.bash
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/local_setup.sh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/local_setup.zsh
+[0.060s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/local_setup.dsv
+[0.060s] -- Symlinking: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/package.dsv
+[0.060s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/ament_index/resource_index/packages/zed_robot_integration
+[0.060s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/cmake/zed_robot_integrationConfig.cmake
+[0.060s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/cmake/zed_robot_integrationConfig-version.cmake
+[0.060s] -- Up-to-date symlink: /root/ros_workspace/install/zed_robot_integration/share/zed_robot_integration/package.xml
+[0.084s] Invoked command in '/root/ros_workspace/build/zed_robot_integration' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_robot_integration

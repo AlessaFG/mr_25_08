@@ -1,0 +1,51 @@
+[0.141s] Invoking command in '/root/ros_workspace/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tutorials/zed_depth_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_tutorial_depth
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.327s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.565s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.568s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.573s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.715s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.753s] -- Looking for pthread.h
+[0.801s] -- Looking for pthread.h - found
+[0.802s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.845s] -- Found Threads: TRUE  
+[0.900s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.914s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.914s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.915s] -- Configured cppcheck include dirs: 
+[0.915s] -- Configured cppcheck exclude dirs and/or files: 
+[0.915s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.915s] -- Configured cpplint exclude dirs and/or files: 
+[0.916s] -- Added test 'lint_cmake' to check CMake code style
+[0.916s] -- Added test 'uncrustify' to check C / C++ code style
+[0.916s] -- Configured uncrustify additional arguments: 
+[0.917s] -- Added test 'xmllint' to check XML markup files
+[0.918s] -- Added test 'clang_format' to check C / C++ code style
+[0.918s] -- Configuring done
+[0.923s] -- Generating done
+[0.925s] -- Build files have been written to: /root/ros_workspace/build/zed_tutorial_depth
+[0.931s] Invoked command in '/root/ros_workspace/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tutorials/zed_depth_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_tutorial_depth
+[0.933s] Invoking command in '/root/ros_workspace/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_tutorial_depth -- -j24 -l24
+[0.967s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_depth.dir/src/zed_depth_sub_tutorial.cpp.o[0m
+[7.317s] [100%] [32m[1mLinking CXX executable zed_tutorial_depth[0m
+[7.418s] [100%] Built target zed_tutorial_depth

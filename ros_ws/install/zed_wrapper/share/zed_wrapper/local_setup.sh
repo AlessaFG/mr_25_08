@@ -1,0 +1,1 @@
+/root/ros_workspace/build/zed_wrapper/ament_cmake_environment_hooks/local_setup.sh

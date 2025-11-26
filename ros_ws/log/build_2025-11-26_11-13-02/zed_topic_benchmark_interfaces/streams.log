@@ -1,0 +1,120 @@
+[0.017s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark_interfaces -- -j24 -l24
+[0.135s] [  9%] Built target zed_topic_benchmark_interfaces__rosidl_generator_c
+[0.135s] [ 12%] Built target zed_topic_benchmark_interfaces__cpp
+[0.135s] [ 12%] Built target ament_cmake_python_symlink_zed_topic_benchmark_interfaces
+[0.136s] [ 25%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c
+[0.136s] [ 32%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c
+[0.136s] [ 41%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp
+[0.136s] [ 51%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c
+[0.136s] [ 61%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.137s] [ 70%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_cpp
+[0.137s] [ 70%] Built target zed_topic_benchmark_interfaces
+[0.137s] [ 74%] Built target zed_topic_benchmark_interfaces__py
+[0.137s] [ 80%] Built target zed_topic_benchmark_interfaces__rosidl_generator_py
+[0.137s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.137s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext
+[0.137s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.158s] running egg_info
+[0.159s] writing zed_topic_benchmark_interfaces.egg-info/PKG-INFO
+[0.159s] writing dependency_links to zed_topic_benchmark_interfaces.egg-info/dependency_links.txt
+[0.159s] writing top-level names to zed_topic_benchmark_interfaces.egg-info/top_level.txt
+[0.160s] reading manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[0.160s] writing manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[0.174s] [100%] Built target ament_cmake_python_build_zed_topic_benchmark_interfaces_egg
+[0.191s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark_interfaces -- -j24 -l24
+[0.192s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark_interfaces
+[0.194s] -- Install configuration: "Release"
+[0.194s] -- Execute custom install script
+[0.194s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_topic_benchmark_interfaces
+[0.194s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.h
+[0.194s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.sh
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.dsv
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_c.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__builder.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__traits.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_c.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.195s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.sh
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.dsv
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.1.0-py3.10.egg-info/PKG-INFO
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.1.0-py3.10.egg-info/SOURCES.txt
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.1.0-py3.10.egg-info/dependency_links.txt
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.1.0-py3.10.egg-info/top_level.txt
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/__init__.py
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_c.c
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/libzed_topic_benchmark_interfaces__rosidl_generator_py.so
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/__init__.py
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped.py
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped_s.c
+[0.196s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.idl
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.msg
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark_interfaces
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark_interfaces
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.sh
+[0.197s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.dsv
+[0.198s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.sh
+[0.198s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.dsv
+[0.198s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.bash
+[0.198s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.sh
+[0.198s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.zsh
+[0.198s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.dsv
+[0.198s] -- Symlinking: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.dsv
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/packages/zed_topic_benchmark_interfaces
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.202s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.203s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.203s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig.cmake
+[0.203s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig-version.cmake
+[0.203s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.xml
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_c.so
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.203s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so
+[0.220s] Listing '/root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces'...
+[0.220s] Listing '/root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg'...
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_py.so
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cExport-release.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cppExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport-release.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.221s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.222s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport.cmake
+[0.222s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport-release.cmake
+[0.222s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_pyExport.cmake
+[0.222s] -- Up-to-date: /root/ros_workspace/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_pyExport-release.cmake
+[0.224s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark_interfaces

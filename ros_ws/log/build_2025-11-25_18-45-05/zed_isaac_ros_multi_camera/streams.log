@@ -1,0 +1,23 @@
+[0.123s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_multi_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_multi_camera -- -j24 -l24
+[0.158s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_multi_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_multi_camera -- -j24 -l24
+[0.161s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_multi_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_multi_camera
+[0.166s] -- Install configuration: "Release"
+[0.166s] -- Execute custom install script
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/launch/zed_multi_camera.launch.py
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/urdf/zed_multi.urdf.xacro
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_multi_camera
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_multi_camera
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/environment/path.sh
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/environment/path.dsv
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/local_setup.bash
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/local_setup.sh
+[0.166s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/local_setup.zsh
+[0.167s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/local_setup.dsv
+[0.167s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/package.dsv
+[0.169s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/ament_index/resource_index/packages/zed_isaac_ros_multi_camera
+[0.169s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/cmake/zed_isaac_ros_multi_cameraConfig.cmake
+[0.169s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/cmake/zed_isaac_ros_multi_cameraConfig-version.cmake
+[0.169s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_multi_camera/share/zed_isaac_ros_multi_camera/package.xml
+[0.205s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_multi_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_multi_camera

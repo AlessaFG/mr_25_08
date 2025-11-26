@@ -1,0 +1,1 @@
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/ament_cmake_core/zed_isaac_ros_nitros_subConfig.cmake

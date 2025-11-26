@@ -1,0 +1,40 @@
+[0.126s] Invoking command in '/root/ros_workspace/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/rviz_plugin_zed_od -- -j24 -l24
+[0.153s] [ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[0.166s] [ 20%] Built target rviz_plugin_zed_od_autogen
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_zed_od[0m
+[0.193s] [100%] Built target rviz_plugin_zed_od
+[0.212s] Invoked command in '/root/ros_workspace/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/rviz_plugin_zed_od -- -j24 -l24
+[0.213s] Invoking command in '/root/ros_workspace/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/rviz_plugin_zed_od
+[0.219s] -- Install configuration: "Release"
+[0.220s] -- Execute custom install script
+[0.220s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od//plugins_description.xml
+[0.220s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.sh
+[0.221s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.dsv
+[0.221s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//visibility_control.hpp
+[0.222s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_body_parts.hpp
+[0.222s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_display.hpp
+[0.222s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_info.hpp
+[0.222s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons/ZedObjDet.png
+[0.222s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_zed_od
+[0.222s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_zed_od
+[0.223s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.sh
+[0.223s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.dsv
+[0.223s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.bash
+[0.223s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.sh
+[0.224s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.zsh
+[0.224s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.dsv
+[0.224s] -- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.dsv
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/packages/rviz_plugin_zed_od
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_zed_od
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_targets-extras.cmake
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig.cmake
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig-version.cmake
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.xml
+[0.227s] -- Up-to-date: /root/ros_workspace/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+[0.227s] -- Up-to-date: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+[0.227s] -- Up-to-date: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-release.cmake
+[0.263s] Invoked command in '/root/ros_workspace/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/rviz_plugin_zed_od

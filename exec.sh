@@ -1,1 +1,1 @@
-docker exec -it ros-isaac bash
+docker exec -it ros-zed bash

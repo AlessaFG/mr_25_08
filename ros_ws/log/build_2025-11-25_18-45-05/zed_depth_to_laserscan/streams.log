@@ -1,0 +1,24 @@
+[0.124s] Invoking command in '/root/ros_workspace/build/zed_depth_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_depth_to_laserscan -- -j24 -l24
+[0.159s] Invoked command in '/root/ros_workspace/build/zed_depth_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_depth_to_laserscan -- -j24 -l24
+[0.160s] Invoking command in '/root/ros_workspace/build/zed_depth_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_depth_to_laserscan
+[0.168s] -- Install configuration: "Release"
+[0.168s] -- Execute custom install script
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/launch/zed_depth_to_laserscan.launch.py
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/config/zed_depth_to_laserscan.yaml
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/rviz2/zed_depth_to_laserscan.rviz
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/ament_index/resource_index/package_run_dependencies/zed_depth_to_laserscan
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/ament_index/resource_index/parent_prefix_path/zed_depth_to_laserscan
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/ament_prefix_path.sh
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/ament_prefix_path.dsv
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/path.sh
+[0.168s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/path.dsv
+[0.170s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.bash
+[0.170s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.sh
+[0.170s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.zsh
+[0.170s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.dsv
+[0.170s] -- Symlinking: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.dsv
+[0.173s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/ament_index/resource_index/packages/zed_depth_to_laserscan
+[0.173s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/cmake/zed_depth_to_laserscanConfig.cmake
+[0.173s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/cmake/zed_depth_to_laserscanConfig-version.cmake
+[0.173s] -- Up-to-date symlink: /root/ros_workspace/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.xml
+[0.200s] Invoked command in '/root/ros_workspace/build/zed_depth_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_depth_to_laserscan

@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_april_tag': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_april_tag -- -j24 -l24
+[0.038s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_april_tag' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_april_tag -- -j24 -l24
+[0.041s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_april_tag': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_april_tag
+[0.045s] -- Install configuration: "Release"
+[0.045s] -- Execute custom install script
+[0.045s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_april_tag
+[0.045s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_april_tag
+[0.045s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/ament_prefix_path.sh
+[0.045s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/ament_prefix_path.dsv
+[0.046s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/path.sh
+[0.046s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/path.dsv
+[0.046s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.bash
+[0.046s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.sh
+[0.046s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.zsh
+[0.046s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.dsv
+[0.047s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/package.dsv
+[0.051s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/packages/zed_isaac_ros_april_tag
+[0.051s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/cmake/zed_isaac_ros_april_tagConfig.cmake
+[0.051s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/cmake/zed_isaac_ros_april_tagConfig-version.cmake
+[0.051s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/package.xml
+[0.079s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_april_tag' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_april_tag

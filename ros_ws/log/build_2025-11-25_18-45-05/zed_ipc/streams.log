@@ -1,0 +1,5 @@
+[0.040s] Invoking command in '/root/ros_workspace/build/zed_ipc': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_multi_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_multi_camera:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_ipc -- -j24 -l24
+[0.068s] [ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_component.dir/src/components/src/winavg.cpp.o[0m
+[0.068s] [ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_component.dir/src/components/src/pointcloud_component.cpp.o[0m
+[4.952s] [100%] [32m[1mLinking CXX shared library libpointcloud_component.so[0m
+[5.034s] [100%] Built target pointcloud_component

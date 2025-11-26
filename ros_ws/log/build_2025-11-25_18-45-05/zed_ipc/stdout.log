@@ -1,0 +1,4 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_component.dir/src/components/src/winavg.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_component.dir/src/components/src/pointcloud_component.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpointcloud_component.so[0m
+[100%] Built target pointcloud_component

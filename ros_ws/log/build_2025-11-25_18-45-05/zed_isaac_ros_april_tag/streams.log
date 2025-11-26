@@ -1,0 +1,21 @@
+[0.123s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_april_tag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_april_tag -- -j24 -l24
+[0.148s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_april_tag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_april_tag -- -j24 -l24
+[0.149s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_april_tag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_april_tag
+[0.159s] -- Install configuration: "Release"
+[0.159s] -- Execute custom install script
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_april_tag
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_april_tag
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/ament_prefix_path.sh
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/ament_prefix_path.dsv
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/path.sh
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/path.dsv
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.bash
+[0.159s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.sh
+[0.160s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.zsh
+[0.160s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.dsv
+[0.161s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/package.dsv
+[0.161s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/packages/zed_isaac_ros_april_tag
+[0.161s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/cmake/zed_isaac_ros_april_tagConfig.cmake
+[0.161s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/cmake/zed_isaac_ros_april_tagConfig-version.cmake
+[0.161s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/package.xml
+[0.178s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_april_tag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_april_tag

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-491c184f93b00d6b802a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_depth_to_laserscan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_depth_to_laserscan_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_depth_to_laserscan_files-Release-13078237b5d4baad4a56.json",
+					"name" : "all_zed_depth_to_laserscan_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5b28f48fe60c46e227a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_depth_to_laserscan_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_depth_to_laserscan_uninstall-Release-3b0f0acf3c71e0b39de0.json",
+					"name" : "zed_depth_to_laserscan_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_workspace/build/zed_depth_to_laserscan",
+		"source" : "/root/ros_workspace/src/zed-ros2-examples/examples/zed_depth_to_laserscan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

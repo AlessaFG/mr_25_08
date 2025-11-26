@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/root/ros_workspace/build/zed_components': /usr/bin/cmake /root/ros_workspace/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_components
+[0.100s] -- Found CUDA: /usr/local/cuda (found suitable version "12.8", minimum required is "12") 
+[0.100s] -- Found CUDA: /usr/local/cuda (found version "12.8") 
+[0.101s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.112s] Traceback (most recent call last):
+[0.112s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.112s] -- Configuring incomplete, errors occurred!
+[0.112s] See also "/root/ros_workspace/build/zed_components/CMakeFiles/CMakeOutput.log".
+[0.112s] See also "/root/ros_workspace/build/zed_components/CMakeFiles/CMakeError.log".
+[0.114s]     from ament_package.templates import get_environment_hook_template_path
+[0.114s] ModuleNotFoundError: No module named 'ament_package'
+[0.114s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.114s]   execute_process(/usr/bin/python3
+[0.114s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.114s]   /root/ros_workspace/build/zed_components/ament_cmake_package_templates/templates.cmake)
+[0.114s]   returned error code 1
+[0.114s] Call Stack (most recent call first):
+[0.114s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.114s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.114s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.114s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[0.114s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[0.114s]   CMakeLists.txt:119 (find_package)
+[0.114s] 
+[0.114s] [0m

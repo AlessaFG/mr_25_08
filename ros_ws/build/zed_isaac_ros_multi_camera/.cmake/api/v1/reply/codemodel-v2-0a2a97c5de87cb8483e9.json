@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-99c5a4e979c0082c08ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_isaac_ros_multi_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_isaac_ros_multi_camera_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_isaac_ros_multi_camera_files-Release-86bd77e46d05502c1241.json",
+					"name" : "all_zed_isaac_ros_multi_camera_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-769121dc5dcfc88f4a32.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_isaac_ros_multi_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_isaac_ros_multi_camera_uninstall-Release-16024a95310aaa839b87.json",
+					"name" : "zed_isaac_ros_multi_camera_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_workspace/build/zed_isaac_ros_multi_camera",
+		"source" : "/root/ros_workspace/src/zed-ros2-examples/isaac_ros/zed_isaac_ros_multi_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

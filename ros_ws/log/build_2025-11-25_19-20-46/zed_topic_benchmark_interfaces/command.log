@@ -1,0 +1,1 @@
+Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_topic_benchmark_interfaces

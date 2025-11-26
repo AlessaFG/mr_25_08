@@ -1,0 +1,2 @@
+Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_topic_benchmark_interfaces
+Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces' returned '1': /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_topic_benchmark_interfaces

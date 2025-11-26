@@ -1,0 +1,37 @@
+[ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[ 20%] Built target rviz_plugin_zed_od_autogen
+[35m[1mConsolidate compiler generated dependencies of target rviz_plugin_zed_od[0m
+[100%] Built target rviz_plugin_zed_od
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od//plugins_description.xml
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.sh
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.dsv
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//visibility_control.hpp
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_body_parts.hpp
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_display.hpp
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_info.hpp
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons/ZedObjDet.png
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_zed_od
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_zed_od
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.sh
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.dsv
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.bash
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.sh
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.zsh
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.dsv
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.dsv
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/packages/rviz_plugin_zed_od
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_zed_od
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig.cmake
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig-version.cmake
+-- Symlinking: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.xml
+-- Installing: /root/ros_workspace/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+-- Set runtime path of "/root/ros_workspace/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so" to ""
+-- Installing: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+-- Installing: /root/ros_workspace/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-release.cmake

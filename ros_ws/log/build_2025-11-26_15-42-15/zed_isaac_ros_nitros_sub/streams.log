@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_nitros_sub -- -j24 -l24
+[0.033s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_nitros_sub -- -j24 -l24
+[0.034s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_nitros_sub
+[0.037s] -- Install configuration: "Release"
+[0.037s] -- Execute custom install script
+[0.037s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_nitros_sub
+[0.037s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_nitros_sub
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.sh
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.dsv
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.sh
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.dsv
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.bash
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.sh
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.zsh
+[0.038s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.dsv
+[0.038s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.dsv
+[0.042s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/packages/zed_isaac_ros_nitros_sub
+[0.042s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig.cmake
+[0.042s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig-version.cmake
+[0.042s] -- Up-to-date symlink: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.xml
+[0.043s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_nitros_sub

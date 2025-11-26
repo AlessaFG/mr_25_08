@@ -1,0 +1,65 @@
+[0.021s] Invoking command in '/root/ros_workspace/build/zed_components': CMAKE_PREFIX_PATH=/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_components -- -j24 -l24
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_one_component[0m
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[0.155s] [ 11%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_video_depth.cpp.o[0m
+[0.155s] [ 11%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_video.cpp.o[0m
+[3.156s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/src/zed_camera_one_component_video.cpp:[m[K In member function ‘[01m[Kvoid stereolabs::ZedCameraOne::retrieveImages(bool)[m[K’:
+[3.157s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/src/zed_camera_one_component_video.cpp:450:32:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_BGR[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_GRAY[m[K’?
+[3.157s]   450 |         _24bitMode ? sl::VIEW::[01;31m[KLEFT_BGR[m[K : sl::VIEW::LEFT_BGRA,
+[3.157s]       |                                [01;31m[K^~~~~~~~[m[K
+[3.157s]       |                                [32m[KLEFT_GRAY[m[K
+[3.157s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/src/zed_camera_one_component_video.cpp:450:53:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_BGRA[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_GRAY[m[K’?
+[3.157s]   450 |         _24bitMode ? sl::VIEW::LEFT_BGR : sl::VIEW::[01;31m[KLEFT_BGRA[m[K,
+[3.157s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[3.157s]       |                                                     [32m[KLEFT_GRAY[m[K
+[3.157s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/src/zed_camera_one_component_video.cpp:462:32:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_UNRECTIFIED_BGR[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_UNRECTIFIED_GRAY[m[K’?
+[3.157s]   462 |         _24bitMode ? sl::VIEW::[01;31m[KLEFT_UNRECTIFIED_BGR[m[K : sl::VIEW::LEFT_UNRECTIFIED_BGRA,
+[3.157s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.157s]       |                                [32m[KLEFT_UNRECTIFIED_GRAY[m[K
+[3.157s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/src/zed_camera_one_component_video.cpp:462:65:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_UNRECTIFIED_BGRA[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_UNRECTIFIED_GRAY[m[K’?
+[3.157s]   462 |         _24bitMode ? sl::VIEW::LEFT_UNRECTIFIED_BGR : sl::VIEW::[01;31m[KLEFT_UNRECTIFIED_BGRA[m[K,
+[3.157s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.158s]       |                                                                 [32m[KLEFT_UNRECTIFIED_GRAY[m[K
+[3.200s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:[m[K In member function ‘[01m[Kbool stereolabs::ZedCamera::retrieveLeftImage(bool)[m[K’:
+[3.200s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1494:30:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_BGR[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_GRAY[m[K’?
+[3.200s]  1494 |       m24bitMode ? sl::VIEW::[01;31m[KLEFT_BGR[m[K : sl::VIEW::LEFT_BGRA,
+[3.200s]       |                              [01;31m[K^~~~~~~~[m[K
+[3.200s]       |                              [32m[KLEFT_GRAY[m[K
+[3.200s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1494:51:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_BGRA[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_GRAY[m[K’?
+[3.200s]  1494 |       m24bitMode ? sl::VIEW::LEFT_BGR : sl::VIEW::[01;31m[KLEFT_BGRA[m[K,
+[3.200s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[3.200s]       |                                                   [32m[KLEFT_GRAY[m[K
+[3.201s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:[m[K In member function ‘[01m[Kbool stereolabs::ZedCamera::retrieveLeftRawImage(bool)[m[K’:
+[3.201s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1512:30:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_UNRECTIFIED_BGR[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_UNRECTIFIED_GRAY[m[K’?
+[3.201s]  1512 |       m24bitMode ? sl::VIEW::[01;31m[KLEFT_UNRECTIFIED_BGR[m[K : sl::VIEW::LEFT_UNRECTIFIED_BGRA,
+[3.201s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.201s]       |                              [32m[KLEFT_UNRECTIFIED_GRAY[m[K
+[3.202s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1512:63:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_UNRECTIFIED_BGRA[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KLEFT_UNRECTIFIED_GRAY[m[K’?
+[3.202s]  1512 |     m24bitMode ? sl::VIEW::LEFT_UNRECTIFIED_BGR : sl::VIEW::[01;31m[KLEFT_UNRECTIFIED_BGRA[m[K,
+[3.202s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.202s]       |                                                             [32m[KLEFT_UNRECTIFIED_GRAY[m[K
+[3.202s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:[m[K In member function ‘[01m[Kbool stereolabs::ZedCamera::retrieveRightImage(bool)[m[K’:
+[3.202s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1529:30:[m[K [01;31m[Kerror: [m[K‘[01m[KRIGHT_BGR[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KRIGHT_GRAY[m[K’?
+[3.202s]  1529 |       m24bitMode ? sl::VIEW::[01;31m[KRIGHT_BGR[m[K : sl::VIEW::RIGHT_BGRA,
+[3.202s]       |                              [01;31m[K^~~~~~~~~[m[K
+[3.202s]       |                              [32m[KRIGHT_GRAY[m[K
+[3.202s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1529:52:[m[K [01;31m[Kerror: [m[K‘[01m[KRIGHT_BGRA[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KRIGHT_GRAY[m[K’?
+[3.202s]  1529 |       m24bitMode ? sl::VIEW::RIGHT_BGR : sl::VIEW::[01;31m[KRIGHT_BGRA[m[K,
+[3.202s]       |                                                    [01;31m[K^~~~~~~~~~[m[K
+[3.203s]       |                                                    [32m[KRIGHT_GRAY[m[K
+[3.203s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:[m[K In member function ‘[01m[Kbool stereolabs::ZedCamera::retrieveRightRawImage(bool)[m[K’:
+[3.203s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1546:30:[m[K [01;31m[Kerror: [m[K‘[01m[KRIGHT_UNRECTIFIED_BGR[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KRIGHT_UNRECTIFIED_GRAY[m[K’?
+[3.204s]  1546 |       m24bitMode ? sl::VIEW::[01;31m[KRIGHT_UNRECTIFIED_BGR[m[K : sl::VIEW::RIGHT_UNRECTIFIED_BGRA,
+[3.204s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.204s]       |                              [32m[KRIGHT_UNRECTIFIED_GRAY[m[K
+[3.204s] [01m[K/root/ros_workspace/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component_video_depth.cpp:1546:64:[m[K [01;31m[Kerror: [m[K‘[01m[KRIGHT_UNRECTIFIED_BGRA[m[K’ is not a member of ‘[01m[Ksl::VIEW[m[K’; did you mean ‘[01m[KRIGHT_UNRECTIFIED_GRAY[m[K’?
+[3.204s]  1546 |    m24bitMode ? sl::VIEW::RIGHT_UNRECTIFIED_BGR : sl::VIEW::[01;31m[KRIGHT_UNRECTIFIED_BGRA[m[K,
+[3.204s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.204s]       |                                                             [32m[KRIGHT_UNRECTIFIED_GRAY[m[K
+[4.344s] gmake[2]: *** [CMakeFiles/zed_camera_one_component.dir/build.make:160: CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_video.cpp.o] Error 1
+[4.345s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/zed_camera_one_component.dir/all] Error 2
+[4.345s] gmake[1]: *** Waiting for unfinished jobs....
+[5.312s] gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:146: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_video_depth.cpp.o] Error 1
+[5.312s] gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/zed_camera_component.dir/all] Error 2
+[5.312s] gmake: *** [Makefile:146: all] Error 2
+[5.314s] Invoked command in '/root/ros_workspace/build/zed_components' returned '2': CMAKE_PREFIX_PATH=/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_components -- -j24 -l24

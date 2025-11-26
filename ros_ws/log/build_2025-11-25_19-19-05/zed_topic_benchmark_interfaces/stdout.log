@@ -1,0 +1,3 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/root/ros_workspace/build/zed_topic_benchmark_interfaces/CMakeFiles/CMakeOutput.log".

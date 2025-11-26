@@ -1,0 +1,4 @@
+source;share/zed_isaac_ros_nitros_sub/local_setup.bash
+source;share/zed_isaac_ros_nitros_sub/local_setup.dsv
+source;share/zed_isaac_ros_nitros_sub/local_setup.sh
+source;share/zed_isaac_ros_nitros_sub/local_setup.zsh

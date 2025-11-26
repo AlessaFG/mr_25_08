@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/root/ros_workspace/build/zed_ros2': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ros_workspace/src/zed-ros2-wrapper/zed_ros2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_ros2
+[0.031s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.155s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.235s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.242s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.242s] -- Added test 'lint_cmake' to check CMake code style
+[0.243s] -- Added test 'xmllint' to check XML markup files
+[0.243s] -- Configuring done
+[0.244s] -- Generating done
+[0.245s] -- Build files have been written to: /root/ros_workspace/build/zed_ros2
+[0.246s] Invoked command in '/root/ros_workspace/build/zed_ros2' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ros_workspace/src/zed-ros2-wrapper/zed_ros2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_ros2
+[0.247s] Invoking command in '/root/ros_workspace/build/zed_ros2': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_ros2 -- -j24 -l24
+[0.266s] Invoked command in '/root/ros_workspace/build/zed_ros2' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_ros2 -- -j24 -l24
+[0.267s] Invoking command in '/root/ros_workspace/build/zed_ros2': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_ros2
+[0.271s] -- Install configuration: "Release"
+[0.272s] -- Execute custom install script
+[0.272s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2
+[0.280s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2
+[0.291s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh
+[0.300s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv
+[0.315s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/environment/path.sh
+[0.329s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/environment/path.dsv
+[0.341s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/local_setup.bash
+[0.360s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/local_setup.sh
+[0.377s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/local_setup.zsh
+[0.391s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/local_setup.dsv
+[0.409s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/package.dsv
+[0.426s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2
+[0.440s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake
+[0.450s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake
+[0.458s] -- Symlinking: /root/ros_workspace/install/zed_ros2/share/zed_ros2/package.xml
+[0.473s] Invoked command in '/root/ros_workspace/build/zed_ros2' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_ros2

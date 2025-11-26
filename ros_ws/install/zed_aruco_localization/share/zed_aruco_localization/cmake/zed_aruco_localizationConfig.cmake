@@ -1,0 +1,1 @@
+/root/ros_workspace/build/zed_aruco_localization/ament_cmake_core/zed_aruco_localizationConfig.cmake

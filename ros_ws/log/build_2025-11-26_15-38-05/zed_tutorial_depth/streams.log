@@ -1,0 +1,50 @@
+[0.117s] Invoking command in '/root/ros_workspace/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tutorials/zed_depth_tutorial -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_tutorial_depth
+[0.125s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.245s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.280s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.281s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.392s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.403s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.404s] -- Configured cppcheck include dirs: 
+[0.404s] -- Configured cppcheck exclude dirs and/or files: 
+[0.404s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.404s] -- Configured cpplint exclude dirs and/or files: 
+[0.405s] -- Added test 'lint_cmake' to check CMake code style
+[0.405s] -- Added test 'uncrustify' to check C / C++ code style
+[0.405s] -- Configured uncrustify additional arguments: 
+[0.405s] -- Added test 'xmllint' to check XML markup files
+[0.406s] -- Configuring done
+[0.411s] -- Generating done
+[0.412s] -- Build files have been written to: /root/ros_workspace/build/zed_tutorial_depth
+[0.415s] Invoked command in '/root/ros_workspace/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tutorials/zed_depth_tutorial -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_tutorial_depth
+[0.417s] Invoking command in '/root/ros_workspace/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_tutorial_depth -- -j24 -l24
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target zed_tutorial_depth[0m
+[0.448s] [100%] Built target zed_tutorial_depth
+[0.458s] Invoked command in '/root/ros_workspace/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_tutorial_depth -- -j24 -l24
+[0.459s] Invoking command in '/root/ros_workspace/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_tutorial_depth
+[0.464s] -- Install configuration: "Release"
+[0.464s] -- Execute custom install script
+[0.464s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/lib/zed_tutorial_depth/zed_tutorial_depth
+[0.464s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_depth
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_depth
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.sh
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.dsv
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.sh
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.dsv
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.bash
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.sh
+[0.466s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.zsh
+[0.466s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.dsv
+[0.466s] -- Symlinking: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv
+[0.473s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/ament_index/resource_index/packages/zed_tutorial_depth
+[0.473s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig.cmake
+[0.473s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig-version.cmake
+[0.474s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_depth/share/zed_tutorial_depth/package.xml
+[0.480s] Invoked command in '/root/ros_workspace/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_tutorial_depth

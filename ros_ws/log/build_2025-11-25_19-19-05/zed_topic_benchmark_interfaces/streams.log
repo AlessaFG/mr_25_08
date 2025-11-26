@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_topic_benchmark_interfaces
+[0.099s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.099s] -- Configuring incomplete, errors occurred!
+[0.099s] See also "/root/ros_workspace/build/zed_topic_benchmark_interfaces/CMakeFiles/CMakeOutput.log".
+[0.099s] Traceback (most recent call last):
+[0.099s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.099s]     from ament_package.templates import get_environment_hook_template_path
+[0.099s] ModuleNotFoundError: No module named 'ament_package'
+[0.099s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.099s]   execute_process(/usr/bin/python3
+[0.099s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.099s]   /root/ros_workspace/build/zed_topic_benchmark_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.099s]   returned error code 1
+[0.099s] Call Stack (most recent call first):
+[0.099s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.100s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.100s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.100s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[0.100s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[0.100s]   CMakeLists.txt:57 (find_package)
+[0.100s] 
+[0.100s] [0m
+[0.101s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces' returned '1': /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_topic_benchmark_interfaces

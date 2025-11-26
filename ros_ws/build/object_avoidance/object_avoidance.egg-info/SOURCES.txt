@@ -9,8 +9,12 @@ setup.py
 ../../build/object_avoidance/object_avoidance.egg-info/top_level.txt
 ../../build/object_avoidance/object_avoidance.egg-info/zip-safe
 object_avoidance/__init__.py
-object_avoidance/object_avoidance.py
+object_avoidance/object_avoidance_node.py
+object_avoidance.egg-info/PKG-INFO
+object_avoidance.egg-info/SOURCES.txt
+object_avoidance.egg-info/dependency_links.txt
+object_avoidance.egg-info/entry_points.txt
+object_avoidance.egg-info/requires.txt
+object_avoidance.egg-info/top_level.txt
+object_avoidance.egg-info/zip-safe
 resource/object_avoidance
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

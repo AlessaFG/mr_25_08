@@ -1,0 +1,56 @@
+[0.121s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/isaac_ros/zed_isaac_ros_nitros_sub -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_isaac_ros_nitros_sub
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.183s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.491s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.493s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.585s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.601s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.634s] -- Looking for pthread.h
+[0.671s] -- Looking for pthread.h - found
+[0.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.711s] -- Found Threads: TRUE  
+[0.779s] -- Configuring done
+[0.781s] -- Generating done
+[0.782s] -- Build files have been written to: /root/ros_workspace/build/zed_isaac_ros_nitros_sub
+[0.786s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/isaac_ros/zed_isaac_ros_nitros_sub -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_isaac_ros_nitros_sub
+[0.787s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_nitros_sub -- -j24 -l24
+[0.809s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_isaac_ros_nitros_sub -- -j24 -l24
+[0.810s] Invoking command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_nitros_sub
+[0.813s] -- Install configuration: "Release"
+[0.814s] -- Execute custom install script
+[0.814s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_nitros_sub
+[0.818s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_nitros_sub
+[0.821s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.sh
+[0.826s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.dsv
+[0.830s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.sh
+[0.835s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.dsv
+[0.839s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.bash
+[0.842s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.sh
+[0.845s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.zsh
+[0.850s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.dsv
+[0.856s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.dsv
+[0.858s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/packages/zed_isaac_ros_nitros_sub
+[0.864s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig.cmake
+[0.869s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig-version.cmake
+[0.873s] -- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.xml
+[0.879s] Invoked command in '/root/ros_workspace/build/zed_isaac_ros_nitros_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_isaac_ros_nitros_sub

@@ -1,0 +1,1 @@
+/root/ros_workspace/build/zed_multi_camera/ament_cmake_environment_hooks/local_setup.bash

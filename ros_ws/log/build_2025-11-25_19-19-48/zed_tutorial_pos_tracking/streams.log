@@ -1,0 +1,47 @@
+[0.112s] Invoking command in '/root/ros_workspace/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_tutorial_pos_tracking -- -j24 -l24
+[0.126s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.185s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.234s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.238s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.264s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.264s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.401s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.412s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.412s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.413s] -- Configured cppcheck include dirs: 
+[0.413s] -- Configured cppcheck exclude dirs and/or files: 
+[0.413s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.413s] -- Configured cpplint exclude dirs and/or files: 
+[0.413s] -- Added test 'lint_cmake' to check CMake code style
+[0.413s] -- Added test 'uncrustify' to check C / C++ code style
+[0.413s] -- Configured uncrustify additional arguments: 
+[0.413s] -- Added test 'xmllint' to check XML markup files
+[0.414s] -- Configuring done
+[0.420s] -- Generating done
+[0.424s] -- Build files have been written to: /root/ros_workspace/build/zed_tutorial_pos_tracking
+[0.438s] [35m[1mConsolidate compiler generated dependencies of target zed_tutorial_pos_tracking[0m
+[0.448s] [100%] Built target zed_tutorial_pos_tracking
+[0.455s] Invoked command in '/root/ros_workspace/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_tutorial_pos_tracking -- -j24 -l24
+[0.456s] Invoking command in '/root/ros_workspace/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_tutorial_pos_tracking
+[0.459s] -- Install configuration: "Release"
+[0.459s] -- Execute custom install script
+[0.459s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[0.459s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[0.459s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[0.459s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[0.459s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[0.459s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[0.460s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[0.460s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[0.460s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[0.460s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[0.460s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[0.460s] -- Symlinking: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[0.465s] -- Up-to-date symlink: /root/ros_workspace/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml

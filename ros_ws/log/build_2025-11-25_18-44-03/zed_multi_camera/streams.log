@@ -1,0 +1,49 @@
+[0.022s] Invoking command in '/root/ros_workspace/build/zed_multi_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tutorials/zed_multi_camera -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_multi_camera
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.183s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.288s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.379s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.394s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.395s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.395s] -- Added test 'lint_cmake' to check CMake code style
+[0.396s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.396s] -- Added test 'xmllint' to check XML markup files
+[0.397s] -- Configuring done
+[0.399s] -- Generating done
+[0.399s] -- Build files have been written to: /root/ros_workspace/build/zed_multi_camera
+[0.402s] Invoked command in '/root/ros_workspace/build/zed_multi_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros_workspace/src/zed-ros2-examples/tutorials/zed_multi_camera -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/zed_multi_camera
+[0.403s] Invoking command in '/root/ros_workspace/build/zed_multi_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_multi_camera -- -j24 -l24
+[0.426s] Invoked command in '/root/ros_workspace/build/zed_multi_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_multi_camera -- -j24 -l24
+[0.427s] Invoking command in '/root/ros_workspace/build/zed_multi_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_multi_camera
+[0.431s] -- Install configuration: "Release"
+[0.432s] -- Execute custom install script
+[0.432s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/launch/zed_multi_camera.launch.py
+[0.438s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/urdf/zed_multi.urdf.xacro
+[0.442s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/ament_index/resource_index/package_run_dependencies/zed_multi_camera
+[0.447s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/ament_index/resource_index/parent_prefix_path/zed_multi_camera
+[0.451s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/environment/ament_prefix_path.sh
+[0.457s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/environment/ament_prefix_path.dsv
+[0.461s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/environment/path.sh
+[0.465s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/environment/path.dsv
+[0.470s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/local_setup.bash
+[0.476s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/local_setup.sh
+[0.479s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/local_setup.zsh
+[0.482s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/local_setup.dsv
+[0.486s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/package.dsv
+[0.489s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/ament_index/resource_index/packages/zed_multi_camera
+[0.495s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/cmake/zed_multi_cameraConfig.cmake
+[0.499s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/cmake/zed_multi_cameraConfig-version.cmake
+[0.502s] -- Symlinking: /root/ros_workspace/install/zed_multi_camera/share/zed_multi_camera/package.xml
+[0.506s] Invoked command in '/root/ros_workspace/build/zed_multi_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_multi_camera

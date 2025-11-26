@@ -1,0 +1,16 @@
+/root/ros_workspace/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+/root/ros_workspace/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+/root/ros_workspace/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+/root/ros_workspace/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+/root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/package.xml

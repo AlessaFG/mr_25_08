@@ -1,0 +1,9 @@
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/uninstall.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/zed_isaac_ros_nitros_sub_uninstall.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/test.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/edit_cache.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/rebuild_cache.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/list_install_components.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/install.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/install/local.dir
+/root/ros_workspace/build/zed_isaac_ros_nitros_sub/CMakeFiles/install/strip.dir

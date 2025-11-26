@@ -1,0 +1,15 @@
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_nitros_sub
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_nitros_sub
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.sh
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.dsv
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.sh
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.dsv
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.bash
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.sh
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.zsh
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.dsv
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.dsv
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/packages/zed_isaac_ros_nitros_sub
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig.cmake
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig-version.cmake
+/root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.xml

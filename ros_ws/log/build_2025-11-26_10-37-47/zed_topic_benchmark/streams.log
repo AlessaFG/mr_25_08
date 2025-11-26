@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark': CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_component:/root/ros_workspace/install/zed_topic_benchmark_interfaces:/root/ros_workspace/install/zed_ros2:/root/ros_workspace/install/zed_robot_integration:/root/ros_workspace/install/zed_multi_camera:/root/ros_workspace/install/zed_isaac_ros_multi_camera:/root/ros_workspace/install/zed_isaac_ros_april_tag:/root/ros_workspace/install/zed_display_rviz2:/root/ros_workspace/install/zed_depth_to_laserscan:/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_tutorial_video:/root/ros_workspace/install/zed_tutorial_pos_tracking:/root/ros_workspace/install/zed_tutorial_depth:/root/ros_workspace/install/zed_topic_benchmark:/root/ros_workspace/install/zed_isaac_ros_nitros_sub:/root/ros_workspace/install/zed_components:/root/ros_workspace/install/rviz_plugin_zed_od:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark -- -j24 -l24
+[0.026s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.149s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.153s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.185s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.186s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.301s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.309s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.309s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.309s] -- Configured cppcheck include dirs: 
+[0.309s] -- Configured cppcheck exclude dirs and/or files: 
+[0.309s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.309s] -- Configured cpplint exclude dirs and/or files: 
+[0.310s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.310s] -- Added test 'lint_cmake' to check CMake code style
+[0.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.310s] -- Added test 'uncrustify' to check C / C++ code style
+[0.310s] -- Configured uncrustify additional arguments: 
+[0.310s] -- Added test 'xmllint' to check XML markup files
+[0.310s] -- Added test 'clang_format' to check C / C++ code style
+[0.311s] -- Configuring done
+[0.322s] -- Generating done
+[0.325s] -- Build files have been written to: /root/ros_workspace/build/zed_topic_benchmark
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target zed_topic_benchmark[0m
+[0.354s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark.dir/src/topic_benchmark_container.cpp.o[0m
+[1.843s] [100%] [32m[1mLinking CXX executable zed_topic_benchmark[0m
+[1.927s] [100%] Built target zed_topic_benchmark
+[1.933s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark' returned '0': CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_component:/root/ros_workspace/install/zed_topic_benchmark_interfaces:/root/ros_workspace/install/zed_ros2:/root/ros_workspace/install/zed_robot_integration:/root/ros_workspace/install/zed_multi_camera:/root/ros_workspace/install/zed_isaac_ros_multi_camera:/root/ros_workspace/install/zed_isaac_ros_april_tag:/root/ros_workspace/install/zed_display_rviz2:/root/ros_workspace/install/zed_depth_to_laserscan:/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_tutorial_video:/root/ros_workspace/install/zed_tutorial_pos_tracking:/root/ros_workspace/install/zed_tutorial_depth:/root/ros_workspace/install/zed_topic_benchmark:/root/ros_workspace/install/zed_isaac_ros_nitros_sub:/root/ros_workspace/install/zed_components:/root/ros_workspace/install/rviz_plugin_zed_od:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark -- -j24 -l24
+[1.934s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark': CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_component:/root/ros_workspace/install/zed_topic_benchmark_interfaces:/root/ros_workspace/install/zed_ros2:/root/ros_workspace/install/zed_robot_integration:/root/ros_workspace/install/zed_multi_camera:/root/ros_workspace/install/zed_isaac_ros_multi_camera:/root/ros_workspace/install/zed_isaac_ros_april_tag:/root/ros_workspace/install/zed_display_rviz2:/root/ros_workspace/install/zed_depth_to_laserscan:/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_tutorial_video:/root/ros_workspace/install/zed_tutorial_pos_tracking:/root/ros_workspace/install/zed_tutorial_depth:/root/ros_workspace/install/zed_topic_benchmark:/root/ros_workspace/install/zed_isaac_ros_nitros_sub:/root/ros_workspace/install/zed_components:/root/ros_workspace/install/rviz_plugin_zed_od:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark
+[1.939s] -- Install configuration: "Release"
+[1.939s] -- Execute custom install script
+[1.939s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/lib/zed_topic_benchmark/zed_topic_benchmark
+[1.939s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/launch/zed_test_ipc.launch.py
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/ament_prefix_path.sh
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/ament_prefix_path.dsv
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/path.sh
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/path.dsv
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.bash
+[1.940s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.sh
+[1.941s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.zsh
+[1.941s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.dsv
+[1.941s] -- Symlinking: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/package.dsv
+[1.949s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/ament_index/resource_index/packages/zed_topic_benchmark
+[1.949s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/cmake/zed_topic_benchmarkConfig.cmake
+[1.949s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/cmake/zed_topic_benchmarkConfig-version.cmake
+[1.949s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark/share/zed_topic_benchmark/package.xml
+[1.951s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark' returned '0': CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_component:/root/ros_workspace/install/zed_topic_benchmark_interfaces:/root/ros_workspace/install/zed_ros2:/root/ros_workspace/install/zed_robot_integration:/root/ros_workspace/install/zed_multi_camera:/root/ros_workspace/install/zed_isaac_ros_multi_camera:/root/ros_workspace/install/zed_isaac_ros_april_tag:/root/ros_workspace/install/zed_display_rviz2:/root/ros_workspace/install/zed_depth_to_laserscan:/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_tutorial_video:/root/ros_workspace/install/zed_tutorial_pos_tracking:/root/ros_workspace/install/zed_tutorial_depth:/root/ros_workspace/install/zed_topic_benchmark:/root/ros_workspace/install/zed_isaac_ros_nitros_sub:/root/ros_workspace/install/zed_components:/root/ros_workspace/install/rviz_plugin_zed_od:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark

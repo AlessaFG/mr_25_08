@@ -1,0 +1,15 @@
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_april_tag
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_april_tag
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/ament_prefix_path.sh
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/ament_prefix_path.dsv
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/path.sh
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/environment/path.dsv
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.bash
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.sh
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.zsh
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/local_setup.dsv
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/package.dsv
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/ament_index/resource_index/packages/zed_isaac_ros_april_tag
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/cmake/zed_isaac_ros_april_tagConfig.cmake
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/cmake/zed_isaac_ros_april_tagConfig-version.cmake
+/root/ros_workspace/install/zed_isaac_ros_april_tag/share/zed_isaac_ros_april_tag/package.xml

@@ -1,0 +1,17 @@
+[0.279s] Invoking command in '/root/ros_workspace/build/object_avoidance': PYTHONPATH=/root/ros_workspace/build/object_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_avoidance/build --no-deps symlink_data
+[0.379s] running develop
+[0.430s] running egg_info
+[0.430s] writing object_avoidance.egg-info/PKG-INFO
+[0.430s] writing dependency_links to object_avoidance.egg-info/dependency_links.txt
+[0.430s] writing entry points to object_avoidance.egg-info/entry_points.txt
+[0.430s] writing requirements to object_avoidance.egg-info/requires.txt
+[0.430s] writing top-level names to object_avoidance.egg-info/top_level.txt
+[0.431s] reading manifest file 'object_avoidance.egg-info/SOURCES.txt'
+[0.431s] writing manifest file 'object_avoidance.egg-info/SOURCES.txt'
+[0.450s] running build_ext
+[0.450s] Creating /root/ros_workspace/install/object_avoidance/lib/python3.10/site-packages/object-avoidance.egg-link (link to .)
+[0.451s] Installing object_avoidance_node script to /root/ros_workspace/install/object_avoidance/lib/object_avoidance
+[0.451s] 
+[0.451s] Installed /root/ros_workspace/build/object_avoidance
+[0.451s] running symlink_data
+[0.463s] Invoked command in '/root/ros_workspace/build/object_avoidance' returned '0': PYTHONPATH=/root/ros_workspace/build/object_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_avoidance/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+[33mCMake Warning at CMakeLists.txt:115 (find_package):
+  By not providing "Findzed_components.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "zed_components", but CMake did not find one.
+
+  Could not find a package configuration file provided by "zed_components"
+  with any of the following names:
+
+    zed_componentsConfig.cmake
+    zed_components-config.cmake
+
+  Add the installation prefix of "zed_components" to CMAKE_PREFIX_PATH or set
+  "zed_components_DIR" to a directory containing one of the above files.  If
+  "zed_components" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'zed_components' was
+  not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:186 (ament_target_dependencies)
+
+[0m

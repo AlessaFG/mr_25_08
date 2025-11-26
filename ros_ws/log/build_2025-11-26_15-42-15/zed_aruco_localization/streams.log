@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/root/ros_workspace/build/zed_aruco_localization': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_aruco_localization -- -j24 -l24
+[0.046s] [100%] Built target zed_aruco_localization_component
+[0.052s] Invoked command in '/root/ros_workspace/build/zed_aruco_localization' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_aruco_localization -- -j24 -l24
+[0.053s] Invoking command in '/root/ros_workspace/build/zed_aruco_localization': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_aruco_localization
+[0.057s] -- Install configuration: "Release"
+[0.058s] -- Execute custom install script
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/lib/libzed_aruco_localization_component.so
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/include/zed_aruco_localization//aruco_loc_visibility_control.hpp
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/include/zed_aruco_localization//aruco.hpp
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/include/zed_aruco_localization//zed_aruco_localization_component.hpp
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/launch/zed_aruco_loc.launch.py
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/config/aruco_loc.yaml
+[0.058s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/rviz2/aruco.rviz
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/environment/library_path.sh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/environment/library_path.dsv
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/ament_index/resource_index/package_run_dependencies/zed_aruco_localization
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/ament_index/resource_index/parent_prefix_path/zed_aruco_localization
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/environment/path.sh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/environment/path.dsv
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.bash
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.sh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.zsh
+[0.059s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.dsv
+[0.059s] -- Symlinking: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/package.dsv
+[0.065s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/ament_index/resource_index/packages/zed_aruco_localization
+[0.065s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/ament_index/resource_index/rclcpp_components/zed_aruco_localization
+[0.065s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.066s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[0.066s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.066s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/cmake/zed_aruco_localizationConfig.cmake
+[0.066s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/cmake/zed_aruco_localizationConfig-version.cmake
+[0.066s] -- Up-to-date symlink: /root/ros_workspace/install/zed_aruco_localization/share/zed_aruco_localization/package.xml
+[0.076s] Invoked command in '/root/ros_workspace/build/zed_aruco_localization' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_aruco_localization

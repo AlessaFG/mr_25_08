@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target zed_tutorial_video[0m
+[100%] Built target zed_tutorial_video
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+-- Symlinking: /root/ros_workspace/install/zed_tutorial_video/share/zed_tutorial_video/package.xml

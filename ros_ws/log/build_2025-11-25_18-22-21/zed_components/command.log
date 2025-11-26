@@ -1,0 +1,2 @@
+Invoking command in '/root/ros_workspace/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_components -- -j24 -l24
+Invoked command in '/root/ros_workspace/build/zed_components' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_components -- -j24 -l24

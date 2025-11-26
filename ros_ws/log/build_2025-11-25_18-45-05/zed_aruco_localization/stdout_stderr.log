@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/zed_aruco_localization_component.dir/src/component/src/zed_aruco_localization_component.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zed_aruco_localization_component.dir/src/component/src/aruco.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libzed_aruco_localization_component.so[0m
+[100%] Built target zed_aruco_localization_component

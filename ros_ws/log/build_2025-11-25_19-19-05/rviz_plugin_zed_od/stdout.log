@@ -1,0 +1,4 @@
+-- Enabling tests requiring a display
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/root/ros_workspace/build/rviz_plugin_zed_od/CMakeFiles/CMakeOutput.log".

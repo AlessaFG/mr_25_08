@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros_workspace/build/zed_isaac_ros_nitros_sub
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/package_run_dependencies/zed_isaac_ros_nitros_sub
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/parent_prefix_path/zed_isaac_ros_nitros_sub
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.sh
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/environment/path.dsv
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.bash
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.sh
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.zsh
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/local_setup.dsv
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.dsv
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/ament_index/resource_index/packages/zed_isaac_ros_nitros_sub
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig.cmake
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/cmake/zed_isaac_ros_nitros_subConfig-version.cmake
+-- Symlinking: /root/ros_workspace/install/zed_isaac_ros_nitros_sub/share/zed_isaac_ros_nitros_sub/package.xml
