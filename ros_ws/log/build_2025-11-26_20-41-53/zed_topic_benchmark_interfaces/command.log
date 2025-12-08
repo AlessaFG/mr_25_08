@@ -1,0 +1,4 @@
+Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark_interfaces -- -j24 -l24
+Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark_interfaces -- -j24 -l24
+Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark_interfaces
+Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark_interfaces

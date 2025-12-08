@@ -1,0 +1,1 @@
+/root/ros_workspace/build/yolov8_msgs/rosidl_generator_cpp/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp

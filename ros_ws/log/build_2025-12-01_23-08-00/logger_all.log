@@ -1,0 +1,254 @@
+[0.049s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.049s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7734b5523d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7734b5523790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7734b5523790>>)
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.116s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros_workspace'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_avoidance) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_avoidance' with type 'ros.ament_python' and name 'object_avoidance'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection' with type 'ros.ament_python' and name 'object_detection'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'object_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/object_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/object_avoidance', 'merge_install': False, 'path': '/root/ros_workspace/src/object_avoidance', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/object_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/object_detection', 'merge_install': False, 'path': '/root/ros_workspace/src/object_detection', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/yolov8_msgs', 'merge_install': False, 'path': '/root/ros_workspace/src/yolov8_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.137s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.138s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_workspace/src/object_avoidance' with build type 'ament_python'
+[0.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_avoidance', 'ament_prefix_path')
+[0.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_avoidance/share/object_avoidance/hook/ament_prefix_path.ps1'
+[0.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/object_avoidance/share/object_avoidance/hook/ament_prefix_path.dsv'
+[0.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_avoidance/share/object_avoidance/hook/ament_prefix_path.sh'
+[0.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_workspace/src/object_detection' with build type 'ament_python'
+[0.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'ament_prefix_path')
+[0.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_detection/share/object_detection/hook/ament_prefix_path.ps1'
+[0.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/object_detection/share/object_detection/hook/ament_prefix_path.dsv'
+[0.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_detection/share/object_detection/hook/ament_prefix_path.sh'
+[0.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.146s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros_workspace/src/yolov8_msgs' with build type 'ament_cmake'
+[0.146s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros_workspace/src/yolov8_msgs'
+[0.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_workspace/src/object_avoidance'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.382s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_workspace/src/object_detection'
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/yolov8_msgs -- -j24 -l24
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/object_detection': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_detection/build --no-deps symlink_data
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/yolov8_msgs -- -j24 -l24
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/yolov8_msgs
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/object_avoidance': PYTHONPATH=/root/ros_workspace/build/object_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_avoidance/build --no-deps symlink_data
+[0.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/yolov8_msgs
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs' for CMake module files
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs' for CMake config files
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/lib'
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/bin'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/lib/python3.10/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[0.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs' for CMake module files
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs' for CMake config files
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/lib'
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/bin'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/lib/python3.10/site-packages'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/yolov8_msgs/bin'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[0.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[0.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath_develop')
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/build/object_detection/share/object_detection/hook/pythonpath_develop.ps1'
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/object_detection' returned '0': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_detection/build --no-deps symlink_data
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/build/object_detection/share/object_detection/hook/pythonpath_develop.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/build/object_detection/share/object_detection/hook/pythonpath_develop.sh'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection' for CMake module files
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection' for CMake config files
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection/lib'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection/bin'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection/lib/pkgconfig/object_detection.pc'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection/lib/python3.10/site-packages'
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath')
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_detection/share/object_detection/hook/pythonpath.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/object_detection/share/object_detection/hook/pythonpath.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_detection/share/object_detection/hook/pythonpath.sh'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_detection/bin'
+[0.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection)
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_detection/share/object_detection/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/object_detection/share/object_detection/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_detection/share/object_detection/package.sh'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_detection/share/object_detection/package.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_detection/share/object_detection/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/object_detection/share/colcon-core/packages/object_detection)
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_avoidance', 'pythonpath_develop')
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/build/object_avoidance/share/object_avoidance/hook/pythonpath_develop.ps1'
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/object_avoidance' returned '0': PYTHONPATH=/root/ros_workspace/build/object_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_avoidance/build --no-deps symlink_data
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/build/object_avoidance/share/object_avoidance/hook/pythonpath_develop.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/build/object_avoidance/share/object_avoidance/hook/pythonpath_develop.sh'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance' for CMake module files
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance' for CMake config files
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance/lib'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance/bin'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance/lib/pkgconfig/object_avoidance.pc'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance/lib/python3.10/site-packages'
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_avoidance', 'pythonpath')
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_avoidance/share/object_avoidance/hook/pythonpath.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/object_avoidance/share/object_avoidance/hook/pythonpath.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/object_avoidance/share/object_avoidance/hook/pythonpath.sh'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/object_avoidance/bin'
+[0.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_avoidance)
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_avoidance/share/object_avoidance/package.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/object_avoidance/share/object_avoidance/package.dsv'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_avoidance/share/object_avoidance/package.sh'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_avoidance/share/object_avoidance/package.bash'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/object_avoidance/share/object_avoidance/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/object_avoidance/share/colcon-core/packages/object_avoidance)
+[0.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.822s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.825s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.825s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.825s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.825s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.827s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.827s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros_workspace/install/_local_setup_util_ps1.py'
+[0.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.ps1'
+[0.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.sh'
+[0.830s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros_workspace/install/_local_setup_util_sh.py'
+[0.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.sh'
+[0.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.bash'
+[0.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.bash'
+[0.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.zsh'
+[0.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.zsh'

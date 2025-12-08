@@ -1,0 +1,39 @@
+[0.419s] Invoking command in '/root/ros_workspace/build/object_detection': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_workspace/build/object_detection/build
+[0.518s] running develop
+[0.572s] Removing /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+[0.584s] Invoked command in '/root/ros_workspace/build/object_detection' returned '0': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_workspace/build/object_detection/build
+[0.585s] Invoking command in '/root/ros_workspace/src/object_detection': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data --force
+[0.681s] running egg_info
+[0.681s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.681s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.681s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.681s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[0.681s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[0.682s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.682s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.682s] running build
+[0.682s] running build_py
+[0.682s] copying object_detection/yolov8_ros2_pt.py -> /root/ros_workspace/build/object_detection/build/lib/object_detection
+[0.683s] copying object_detection/dataset_collector.py -> /root/ros_workspace/build/object_detection/build/lib/object_detection
+[0.683s] running install
+[0.683s] running install_lib
+[0.683s] creating /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.683s] copying /root/ros_workspace/build/object_detection/build/lib/object_detection/yolov8_ros2_pt.py -> /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.683s] copying /root/ros_workspace/build/object_detection/build/lib/object_detection/yolov8_ros2_subscriber.py -> /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.683s] copying /root/ros_workspace/build/object_detection/build/lib/object_detection/__init__.py -> /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.683s] copying /root/ros_workspace/build/object_detection/build/lib/object_detection/dataset_collector.py -> /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.683s] byte-compiling /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection/yolov8_ros2_pt.py to yolov8_ros2_pt.cpython-310.pyc
+[0.684s] byte-compiling /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection/yolov8_ros2_subscriber.py to yolov8_ros2_subscriber.cpython-310.pyc
+[0.684s] byte-compiling /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+[0.684s] byte-compiling /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection/dataset_collector.py to dataset_collector.cpython-310.pyc
+[0.684s] running install_data
+[0.684s] copying resource/object_detection -> /root/ros_workspace/install/object_detection/share/ament_index/resource_index/packages
+[0.685s] copying package.xml -> /root/ros_workspace/install/object_detection/share/object_detection
+[0.685s] running install_egg_info
+[0.685s] Copying ../../build/object_detection/object_detection.egg-info to /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.686s] running install_scripts
+[0.696s] Installing data_collector script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.696s] Installing yolov8_ros2_pt script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.696s] Installing yolov8_ros2_subscriber script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.696s] writing list of installed files to '/root/ros_workspace/build/object_detection/install.log'
+[0.714s] Invoked command in '/root/ros_workspace/src/object_detection' returned '0': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data --force

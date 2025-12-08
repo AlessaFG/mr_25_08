@@ -1,0 +1,23 @@
+[0.445s] Invoking command in '/root/ros_workspace/src/object_detection': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data
+[0.546s] running egg_info
+[0.546s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.546s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.546s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.547s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[0.547s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[0.547s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.548s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.548s] running build
+[0.548s] running build_py
+[0.548s] running install
+[0.548s] running install_lib
+[0.549s] running install_data
+[0.549s] running install_egg_info
+[0.550s] removing '/root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.550s] Copying ../../build/object_detection/object_detection.egg-info to /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.550s] running install_scripts
+[0.560s] Installing data_collector script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.560s] Installing yolov8_ros2_pt script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.560s] Installing yolov8_ros2_subscriber script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.560s] writing list of installed files to '/root/ros_workspace/build/object_detection/install.log'
+[0.576s] Invoked command in '/root/ros_workspace/src/object_detection' returned '0': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data

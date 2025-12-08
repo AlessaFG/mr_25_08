@@ -1007,7 +1007,7 @@ yaml_DIR:PATH=/opt/ros/humble/cmake
 yaml_cpp_vendor_DIR:PATH=/opt/ros/humble/share/yaml_cpp_vendor/cmake
 
 //The directory containing a CMake configuration file for zed_msgs.
-zed_msgs_DIR:PATH=/opt/ros/humble/share/zed_msgs/cmake
+zed_msgs_DIR:PATH=zed_msgs_DIR-NOTFOUND
 
 
 ########################

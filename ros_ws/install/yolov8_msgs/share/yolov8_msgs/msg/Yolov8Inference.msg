@@ -1,0 +1,1 @@
+/root/ros_workspace/src/yolov8_msgs/msg/Yolov8Inference.msg

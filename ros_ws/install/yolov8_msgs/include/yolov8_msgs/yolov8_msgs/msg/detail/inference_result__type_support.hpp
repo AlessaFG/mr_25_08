@@ -1,0 +1,1 @@
+/root/ros_workspace/build/yolov8_msgs/rosidl_generator_cpp/yolov8_msgs/msg/detail/inference_result__type_support.hpp

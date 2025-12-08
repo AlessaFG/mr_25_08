@@ -1,0 +1,19 @@
+[0.313s] Invoking command in '/root/ros_workspace/build/object_detection': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_detection/build --no-deps symlink_data
+[0.441s] running develop
+[0.508s] running egg_info
+[0.508s] writing object_detection.egg-info/PKG-INFO
+[0.508s] writing dependency_links to object_detection.egg-info/dependency_links.txt
+[0.508s] writing entry points to object_detection.egg-info/entry_points.txt
+[0.508s] writing requirements to object_detection.egg-info/requires.txt
+[0.508s] writing top-level names to object_detection.egg-info/top_level.txt
+[0.509s] reading manifest file 'object_detection.egg-info/SOURCES.txt'
+[0.509s] writing manifest file 'object_detection.egg-info/SOURCES.txt'
+[0.536s] running build_ext
+[0.536s] Creating /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+[0.537s] Installing data_collector script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.537s] Installing yolov8_ros2_pt script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.537s] Installing yolov8_ros2_subscriber script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.537s] 
+[0.537s] Installed /root/ros_workspace/build/object_detection
+[0.537s] running symlink_data
+[0.557s] Invoked command in '/root/ros_workspace/build/object_detection' returned '0': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/object_detection/build --no-deps symlink_data

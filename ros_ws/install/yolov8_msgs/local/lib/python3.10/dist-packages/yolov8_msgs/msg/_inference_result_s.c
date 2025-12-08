@@ -1,0 +1,1 @@
+/root/ros_workspace/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_inference_result_s.c

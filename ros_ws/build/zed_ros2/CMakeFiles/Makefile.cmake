@@ -175,13 +175,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "ament_cmake_package_templates/templates.cmake"
   "/root/ros_workspace/src/zed-ros2-wrapper/zed_ros2/CMakeLists.txt"
   "/root/ros_workspace/src/zed-ros2-wrapper/zed_ros2/package.xml"
-  "/usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-3.22/Modules/DartConfiguration.tcl.in"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
@@ -199,7 +196,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "ament_cmake_core/stamps/templates_2_cmake.py.stamp"
   "ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
   "ament_cmake_symlink_install/ament_cmake_symlink_install.cmake"

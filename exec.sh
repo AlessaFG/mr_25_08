@@ -1,1 +1,1 @@
-docker exec -it ros-zed bash
+docker exec -it ros-zed-random bash

@@ -1,0 +1,35 @@
+[0.023s] Invoking command in '/root/ros_workspace/build/zed_display_rviz2': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_display_rviz2 -- -j24 -l24
+[0.036s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.111s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.179s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.180s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.180s] -- Added test 'lint_cmake' to check CMake code style
+[0.180s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.180s] -- Added test 'xmllint' to check XML markup files
+[0.182s] -- Configuring done
+[0.183s] -- Generating done
+[0.184s] -- Build files have been written to: /root/ros_workspace/build/zed_display_rviz2
+[0.220s] Invoked command in '/root/ros_workspace/build/zed_display_rviz2' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_display_rviz2 -- -j24 -l24
+[0.221s] Invoking command in '/root/ros_workspace/build/zed_display_rviz2': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_display_rviz2
+[0.225s] -- Install configuration: "Release"
+[0.225s] -- Execute custom install script
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/launch/display_zed_cam.launch.py
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/rviz2/zed_mono.rviz
+[0.226s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/rviz2/zed_stereo.rviz
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/ament_index/resource_index/package_run_dependencies/zed_display_rviz2
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/ament_index/resource_index/parent_prefix_path/zed_display_rviz2
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/environment/ament_prefix_path.sh
+[0.227s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/environment/ament_prefix_path.dsv
+[0.228s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/environment/path.sh
+[0.228s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/environment/path.dsv
+[0.228s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.bash
+[0.228s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.sh
+[0.228s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.zsh
+[0.229s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.dsv
+[0.229s] -- Symlinking: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/package.dsv
+[0.235s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/ament_index/resource_index/packages/zed_display_rviz2
+[0.235s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/cmake/zed_display_rviz2Config.cmake
+[0.235s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/cmake/zed_display_rviz2Config-version.cmake
+[0.236s] -- Up-to-date symlink: /root/ros_workspace/install/zed_display_rviz2/share/zed_display_rviz2/package.xml
+[0.237s] Invoked command in '/root/ros_workspace/build/zed_display_rviz2' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_wrapper:/root/ros_workspace/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_components/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_display_rviz2

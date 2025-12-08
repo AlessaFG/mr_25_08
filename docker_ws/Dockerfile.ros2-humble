@@ -26,6 +26,7 @@ RUN apt-get update -y && \
         ros-$ROS_DISTRO-nav2-rviz-plugins \
         build-essential \
         python3-rosdep \
+        python3-pip \
         cmake \
         python3-colcon-common-extensions \
         usbutils \
@@ -38,3 +39,6 @@ RUN apt-get update -y && \
 
 RUN rosdep init && \
     rosdep update
+
+RUN pip3 install ultralytics && \
+    pip3 install "numpy<2.0"

@@ -1,0 +1,62 @@
+[0.009s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_component': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark_component -- -j24 -l24
+[0.038s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.196s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.337s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.354s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.463s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.464s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.729s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.753s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.753s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_component/src/include>;$<BUILD_INTERFACE:/root/ros_workspace/src/zed-ros2-examples/tools/zed_benchmark_component/src/component/include>
+[0.753s] -- Configured cppcheck exclude dirs and/or files: 
+[0.754s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.754s] -- Configured cpplint exclude dirs and/or files: 
+[0.755s] -- Added test 'lint_cmake' to check CMake code style
+[0.755s] -- Added test 'uncrustify' to check C / C++ code style
+[0.755s] -- Configured uncrustify additional arguments: 
+[0.755s] -- Added test 'xmllint' to check XML markup files
+[0.756s] -- Added test 'clang_format' to check C / C++ code style
+[0.762s] -- Configuring done
+[0.772s] -- Generating done
+[0.789s] -- Build files have been written to: /root/ros_workspace/build/zed_topic_benchmark_component
+[0.849s] [35m[1mConsolidate compiler generated dependencies of target zed_topic_benchmark_component[0m
+[0.863s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_component.dir/src/component/src/topic_benchmark_component.cpp.o[0m
+[0.865s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_component.dir/src/component/src/winavg.cpp.o[0m
+[62.630s] [100%] [32m[1mLinking CXX shared library libzed_topic_benchmark_component.so[0m
+[62.791s] [100%] Built target zed_topic_benchmark_component
+[62.841s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_component' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_workspace/build/zed_topic_benchmark_component -- -j24 -l24
+[62.866s] Invoking command in '/root/ros_workspace/build/zed_topic_benchmark_component': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark_component
+[62.874s] -- Install configuration: "Release"
+[62.876s] -- Execute custom install script
+[62.876s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/lib/libzed_topic_benchmark_component.so
+[62.878s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/include/zed_topic_benchmark_component/topic_benchmark_component.hpp
+[62.878s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/include/zed_topic_benchmark_component/winavg.hpp
+[62.879s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/include/zed_topic_benchmark_component/visibility_control.hpp
+[62.880s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/environment/library_path.sh
+[62.880s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/environment/library_path.dsv
+[62.881s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark_component
+[62.882s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark_component
+[62.883s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/environment/ament_prefix_path.sh
+[62.883s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/environment/ament_prefix_path.dsv
+[62.883s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/environment/path.sh
+[62.883s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/environment/path.dsv
+[62.883s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/local_setup.bash
+[62.884s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/local_setup.sh
+[62.884s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/local_setup.zsh
+[62.884s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/local_setup.dsv
+[62.884s] -- Symlinking: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/package.dsv
+[62.894s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/ament_index/resource_index/packages/zed_topic_benchmark_component
+[62.894s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/ament_index/resource_index/rclcpp_components/zed_topic_benchmark_component
+[62.895s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.895s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/cmake/ament_cmake_export_libraries-extras.cmake
+[62.895s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.896s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/cmake/zed_topic_benchmark_componentConfig.cmake
+[62.896s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/cmake/zed_topic_benchmark_componentConfig-version.cmake
+[62.896s] -- Up-to-date symlink: /root/ros_workspace/install/zed_topic_benchmark_component/share/zed_topic_benchmark_component/package.xml
+[62.908s] Invoked command in '/root/ros_workspace/build/zed_topic_benchmark_component' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_workspace/build/zed_topic_benchmark_component

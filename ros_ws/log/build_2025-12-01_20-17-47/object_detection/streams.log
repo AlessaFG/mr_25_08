@@ -1,0 +1,21 @@
+[0.493s] Invoking command in '/root/ros_workspace/src/object_detection': PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.597s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.597s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[0.597s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[0.598s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.598s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.598s] running build
+[0.598s] running build_py
+[0.598s] running install
+[0.598s] running install_lib
+[0.599s] running install_data
+[0.599s] running install_egg_info
+[0.600s] removing '/root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.600s] Copying ../../build/object_detection/object_detection.egg-info to /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.600s] running install_scripts
+[0.611s] Installing yolov8_ros2_pt script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.611s] Installing yolov8_ros2_subscriber script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.612s] writing list of installed files to '/root/ros_workspace/build/object_detection/install.log'

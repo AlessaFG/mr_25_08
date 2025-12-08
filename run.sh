@@ -1,5 +1,5 @@
 xhost +si:localuser:root
-docker run --gpus all -it --net host --rm --ipc host --privileged \
+docker run --gpus all -it  --rm --net host --ipc host --privileged \
     -e DISPLAY=$DISPLAY \
     -e XAUTHORITY=$XAUTHORITY \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
@@ -8,3 +8,4 @@ docker run --gpus all -it --net host --rm --ipc host --privileged \
     -v /dev:/dev -e NVIDIA_DRIVER_CAPABILITIES=all \
     --name ros-zed \
     zed-ros2-humble:latest
+
