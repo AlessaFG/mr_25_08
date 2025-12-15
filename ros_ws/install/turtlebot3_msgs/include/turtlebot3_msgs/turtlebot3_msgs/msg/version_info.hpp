@@ -1,0 +1,1 @@
+/root/ros_workspace/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/version_info.hpp

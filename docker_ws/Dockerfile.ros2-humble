@@ -23,7 +23,10 @@ RUN apt-get update -y && \
         ros-$ROS_DISTRO-desktop-full \
         ros-$ROS_DISTRO-vision-msgs \
         ros-$ROS_DISTRO-ament-cmake-auto \
+        ros-$ROS_DISTRO-navigation2 \
+        ros-$ROS_DISTRO-nav2-bringup \
         ros-$ROS_DISTRO-nav2-rviz-plugins \
+        ros-$ROS_DISTRO-slam-toolbox \
         build-essential \
         python3-rosdep \
         python3-pip \
@@ -42,3 +45,5 @@ RUN rosdep init && \
 
 RUN pip3 install ultralytics && \
     pip3 install "numpy<2.0"
+
+WORKDIR /root/ros_workspace

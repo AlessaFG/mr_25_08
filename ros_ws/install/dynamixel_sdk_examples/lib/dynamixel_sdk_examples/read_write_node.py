@@ -1,0 +1,1 @@
+/root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk_examples/src/read_write_node.py

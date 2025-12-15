@@ -1,0 +1,53 @@
+[0.019s] Invoking command in '/root/ros_workspace/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:/root/ros_workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros_workspace/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_bringup
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.253s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.332s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.484s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.560s] -- Configuring done
+[0.562s] -- Generating done
+[0.564s] -- Build files have been written to: /root/ros_workspace/build/turtlebot3_bringup
+[0.567s] Invoked command in '/root/ros_workspace/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:/root/ros_workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros_workspace/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_bringup
+[0.568s] Invoking command in '/root/ros_workspace/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:/root/ros_workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros_workspace/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_bringup -- -j24 -l24
+[0.604s] Invoked command in '/root/ros_workspace/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:/root/ros_workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros_workspace/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_bringup -- -j24 -l24
+[0.606s] Invoking command in '/root/ros_workspace/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:/root/ros_workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros_workspace/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_bringup
+[0.616s] -- Install configuration: ""
+[0.616s] -- Execute custom install script
+[0.616s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/camera.launch.py
+[0.622s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[0.631s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[0.643s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[0.656s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[0.672s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml
+[0.688s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml
+[0.694s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml
+[0.702s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[0.712s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[0.724s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+[0.740s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+[0.757s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[0.775s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[0.795s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[0.812s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[0.828s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[0.844s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[0.863s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[0.880s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[0.899s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[0.913s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[0.927s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[0.939s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[0.951s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[0.963s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[0.983s] -- Symlinking: /root/ros_workspace/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[1.004s] Invoked command in '/root/ros_workspace/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_node:/root/ros_workspace/install/turtlebot3_msgs:/root/ros_workspace/install/turtlebot3_description:/root/ros_workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:/root/ros_workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros_workspace/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_bringup

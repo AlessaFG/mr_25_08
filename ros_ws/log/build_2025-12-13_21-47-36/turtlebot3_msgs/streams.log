@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/root/ros_workspace/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_msgs -- -j24 -l24
+[0.410s] [ 11%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.410s] [ 12%] Built target turtlebot3_msgs__cpp
+[0.410s] [ 12%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.410s] [ 31%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.410s] [ 36%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.410s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.410s] [ 59%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.410s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.410s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.410s] [ 81%] Built target turtlebot3_msgs
+[0.410s] [ 82%] Built target turtlebot3_msgs__py
+[0.410s] [ 92%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.410s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.410s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.410s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.410s] running egg_info
+[0.410s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[0.410s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[0.410s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[0.410s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.410s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.410s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+[0.448s] Invoked command in '/root/ros_workspace/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_msgs -- -j24 -l24
+[0.449s] Invoking command in '/root/ros_workspace/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_msgs

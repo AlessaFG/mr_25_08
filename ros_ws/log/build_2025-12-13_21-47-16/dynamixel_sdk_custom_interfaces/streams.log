@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk_custom_interfaces -- -j24 -l24
+[0.449s] [ 10%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.449s] [ 12%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.449s] [ 12%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[0.449s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.449s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.449s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.449s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.449s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.449s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.449s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[0.449s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[0.449s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[0.449s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.449s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[0.449s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.449s] running egg_info
+[0.449s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[0.449s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[0.450s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[0.450s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[0.450s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[0.450s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[0.477s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk_custom_interfaces -- -j24 -l24
+[0.478s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk_custom_interfaces

@@ -1,0 +1,17 @@
+/root/ros_workspace/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+/root/ros_workspace/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+/root/ros_workspace/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+/root/ros_workspace/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+/root/ros_workspace/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+/root/ros_workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml

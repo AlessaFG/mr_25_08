@@ -1,0 +1,13 @@
+[0.036s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j24 -l24
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk[0m
+[0.376s] [  0%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.376s] [100%] Built target dynamixel_sdk
+[0.376s] running egg_info
+[0.376s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.376s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.376s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.376s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.377s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.377s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[0.411s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk' returned '0': /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j24 -l24
+[0.412s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk

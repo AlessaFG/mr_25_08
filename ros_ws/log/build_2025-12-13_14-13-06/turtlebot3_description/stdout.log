@@ -1,0 +1,32 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+-- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/package.xml

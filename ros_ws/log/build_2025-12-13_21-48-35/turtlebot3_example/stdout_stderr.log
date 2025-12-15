@@ -1,0 +1,62 @@
+running egg_info
+writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtlebot3_example/__init__.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example
+copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+running install
+running install_lib
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+copying /root/ros_workspace/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/turtlebot3_example -> /root/ros_workspace/install/turtlebot3_example/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros_workspace/install/turtlebot3_example/share/turtlebot3_example
+running install_egg_info
+removing '/root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.4-py3.10.egg-info' (and everything under it)
+Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /root/ros_workspace/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.4-py3.10.egg-info
+running install_scripts
+Installing turtlebot3_absolute_move script to /root/ros_workspace/install/turtlebot3_example/lib/turtlebot3_example
+Installing turtlebot3_interactive_marker script to /root/ros_workspace/install/turtlebot3_example/lib/turtlebot3_example
+Installing turtlebot3_obstacle_detection script to /root/ros_workspace/install/turtlebot3_example/lib/turtlebot3_example
+Installing turtlebot3_patrol_client script to /root/ros_workspace/install/turtlebot3_example/lib/turtlebot3_example
+Installing turtlebot3_patrol_server script to /root/ros_workspace/install/turtlebot3_example/lib/turtlebot3_example
+Installing turtlebot3_relative_move script to /root/ros_workspace/install/turtlebot3_example/lib/turtlebot3_example
+writing list of installed files to '/root/ros_workspace/build/turtlebot3_example/install.log'

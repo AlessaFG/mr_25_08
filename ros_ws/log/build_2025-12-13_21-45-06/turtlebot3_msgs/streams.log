@@ -1,0 +1,59 @@
+[0.044s] Invoking command in '/root/ros_workspace/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_msgs -- -j24 -l24
+[0.540s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[0.541s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.542s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.542s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.542s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.542s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.542s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.542s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.542s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.543s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.543s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.885s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.885s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.885s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.921s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[0.922s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[0.926s] -- Configuring done
+[0.955s] -- Generating done
+[0.962s] -- Build files have been written to: /root/ros_workspace/build/turtlebot3_msgs
+[0.979s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_generator_c[0m
+[0.986s] [  1%] Built target turtlebot3_msgs__cpp
+[0.987s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.992s] [ 12%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.992s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp[0m
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_c[0m
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.995s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.995s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c[0m
+[0.995s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.002s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[1.002s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[1.002s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[1.002s] [ 58%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[1.005s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[1.007s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[1.021s] [ 81%] Built target turtlebot3_msgs
+[1.034s] [ 82%] Built target turtlebot3_msgs__py
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_generator_py[0m
+[1.052s] [ 92%] Built target turtlebot3_msgs__rosidl_generator_py
+[1.060s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.060s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.060s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext[0m
+[1.067s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.067s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[1.068s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[1.105s] running egg_info
+[1.105s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[1.105s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[1.106s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[1.106s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[1.107s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[1.120s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg

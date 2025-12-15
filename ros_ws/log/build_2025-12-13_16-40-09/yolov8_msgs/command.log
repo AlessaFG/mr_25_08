@@ -1,0 +1,1 @@
+Invoking command in '/root/ros_workspace/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/yolov8_msgs -- -j24 -l24

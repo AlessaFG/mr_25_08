@@ -1,0 +1,2 @@
+Invoking command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk_custom_interfaces
+Invoked command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces' returned '1': /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk_custom_interfaces

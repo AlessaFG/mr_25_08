@@ -1,0 +1,23 @@
+[0.392s] Invoking command in '/root/ros_workspace/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/yolov8_msgs -- -j24 -l24
+[0.432s] [  2%] Built target yolov8_msgs__cpp
+[0.433s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[0.439s] [ 12%] Built target ament_cmake_python_symlink_yolov8_msgs
+[0.447s] [ 23%] Built target yolov8_msgs__rosidl_typesupport_c
+[0.447s] [ 33%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[0.447s] [ 43%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[0.449s] [ 53%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[0.449s] [ 64%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[0.449s] [ 74%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[0.460s] [ 74%] Built target yolov8_msgs
+[0.471s] [ 76%] Built target yolov8_msgs__py
+[0.483s] [ 84%] Built target yolov8_msgs__rosidl_generator_py
+[0.496s] [ 94%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.496s] [ 94%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[0.496s] [100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[0.548s] running egg_info
+[0.548s] writing yolov8_msgs.egg-info/PKG-INFO
+[0.548s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[0.548s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[0.549s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.549s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.563s] [100%] Built target ament_cmake_python_build_yolov8_msgs_egg

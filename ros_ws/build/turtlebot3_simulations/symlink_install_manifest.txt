@@ -1,0 +1,15 @@
+/root/ros_workspace/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+/root/ros_workspace/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+/root/ros_workspace/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+/root/ros_workspace/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml

@@ -1,0 +1,2 @@
+Invoking command in '/root/ros_workspace/build/turtlebot3_description': /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_description
+Invoked command in '/root/ros_workspace/build/turtlebot3_description' returned '1': /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_description

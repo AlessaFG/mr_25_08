@@ -1,0 +1,13 @@
+[0.034s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j24 -l24
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk[0m
+[0.453s] [  0%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.453s] [100%] Built target dynamixel_sdk
+[0.453s] running egg_info
+[0.453s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.453s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.453s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.453s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.453s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.453s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[0.479s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j24 -l24
+[0.481s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/object_detection:/root/ros_workspace/install/object_avoidance:/opt/ros/humble /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk

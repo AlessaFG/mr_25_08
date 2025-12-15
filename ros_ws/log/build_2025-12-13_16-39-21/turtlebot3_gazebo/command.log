@@ -1,0 +1,2 @@
+Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j24 -l24
+Invoked command in '/root/ros_workspace/build/turtlebot3_gazebo' returned '2': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j24 -l24
