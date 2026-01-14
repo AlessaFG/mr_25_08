@@ -1,0 +1,3 @@
+[console_scripts]
+find_box = find_box.find_box:main
+

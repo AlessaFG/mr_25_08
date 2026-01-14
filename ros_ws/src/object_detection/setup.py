@@ -23,6 +23,7 @@ setup(
             'yolov8_ros2_pt = object_detection.yolov8_ros2_pt:main',
             'yolov8_ros2_subscriber = object_detection.yolov8_ros2_subscriber:main',
             'data_collector = object_detection.dataset_collector:main',
+            
         ],
     },
 )

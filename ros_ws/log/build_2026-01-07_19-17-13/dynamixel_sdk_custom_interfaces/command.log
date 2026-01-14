@@ -1,0 +1,4 @@
+Invoking command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk_custom_interfaces -- -j24 -l24
+Invoked command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces' returned '0': /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk_custom_interfaces -- -j24 -l24
+Invoking command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk_custom_interfaces
+Invoked command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces' returned '0': /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk_custom_interfaces

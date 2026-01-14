@@ -1,0 +1,26 @@
+[0.374s] Invoking command in '/root/ros_workspace/src/object_detection': AMENT_PREFIX_PATH=/root/ros_workspace/install/yolov8_msgs CMAKE_PREFIX_PATH=/root/ros_workspace/install/yolov8_msgs LD_LIBRARY_PATH=/root/ros_workspace/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:/root/ros_workspace/install/yolov8_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data
+[0.449s] running egg_info
+[0.449s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.450s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.450s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.450s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[0.450s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[0.450s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.451s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.451s] running build
+[0.451s] running build_py
+[0.451s] copying object_detection/yolov8_ros2_pt.py -> /root/ros_workspace/build/object_detection/build/lib/object_detection
+[0.451s] running install
+[0.451s] running install_lib
+[0.451s] copying /root/ros_workspace/build/object_detection/build/lib/object_detection/yolov8_ros2_pt.py -> /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.452s] byte-compiling /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection/yolov8_ros2_pt.py to yolov8_ros2_pt.cpython-310.pyc
+[0.453s] running install_data
+[0.453s] running install_egg_info
+[0.454s] removing '/root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.454s] Copying ../../build/object_detection/object_detection.egg-info to /root/ros_workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.455s] running install_scripts
+[0.466s] Installing data_collector script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.466s] Installing yolov8_ros2_pt script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.466s] Installing yolov8_ros2_subscriber script to /root/ros_workspace/install/object_detection/lib/object_detection
+[0.466s] writing list of installed files to '/root/ros_workspace/build/object_detection/install.log'
+[0.482s] Invoked command in '/root/ros_workspace/src/object_detection' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/yolov8_msgs CMAKE_PREFIX_PATH=/root/ros_workspace/install/yolov8_msgs LD_LIBRARY_PATH=/root/ros_workspace/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/object_detection/lib/python3.10/site-packages:/root/ros_workspace/install/yolov8_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /root/ros_workspace/build/object_detection/build install --record /root/ros_workspace/build/object_detection/install.log --single-version-externally-managed install_data
