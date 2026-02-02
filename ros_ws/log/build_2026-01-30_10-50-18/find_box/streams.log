@@ -1,0 +1,24 @@
+[0.639s] Invoking command in '/root/ros_workspace/src/find_box': PYTHONPATH=/root/ros_workspace/build/find_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/find_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/find_box build --build-base /root/ros_workspace/build/find_box/build install --record /root/ros_workspace/build/find_box/install.log --single-version-externally-managed install_data
+[0.762s] running egg_info
+[0.762s] writing ../../build/find_box/find_box.egg-info/PKG-INFO
+[0.762s] writing dependency_links to ../../build/find_box/find_box.egg-info/dependency_links.txt
+[0.762s] writing entry points to ../../build/find_box/find_box.egg-info/entry_points.txt
+[0.762s] writing requirements to ../../build/find_box/find_box.egg-info/requires.txt
+[0.762s] writing top-level names to ../../build/find_box/find_box.egg-info/top_level.txt
+[0.762s] reading manifest file '../../build/find_box/find_box.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/find_box/find_box.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] copying find_box/find_box.py -> /root/ros_workspace/build/find_box/build/lib/find_box
+[0.762s] running install
+[0.762s] running install_lib
+[0.762s] copying /root/ros_workspace/build/find_box/build/lib/find_box/find_box.py -> /root/ros_workspace/install/find_box/lib/python3.10/site-packages/find_box
+[0.762s] byte-compiling /root/ros_workspace/install/find_box/lib/python3.10/site-packages/find_box/find_box.py to find_box.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] running install_egg_info
+[0.762s] removing '/root/ros_workspace/install/find_box/lib/python3.10/site-packages/find_box-0.0.0-py3.10.egg-info' (and everything under it)
+[0.762s] Copying ../../build/find_box/find_box.egg-info to /root/ros_workspace/install/find_box/lib/python3.10/site-packages/find_box-0.0.0-py3.10.egg-info
+[0.762s] running install_scripts
+[0.762s] Installing find_box script to /root/ros_workspace/install/find_box/lib/find_box
+[0.762s] writing list of installed files to '/root/ros_workspace/build/find_box/install.log'
+[0.783s] Invoked command in '/root/ros_workspace/src/find_box' returned '0': PYTHONPATH=/root/ros_workspace/build/find_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/find_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/find_box build --build-base /root/ros_workspace/build/find_box/build install --record /root/ros_workspace/build/find_box/install.log --single-version-externally-managed install_data
