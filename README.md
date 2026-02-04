@@ -43,3 +43,5 @@ The system was successfully validated in multiple operational scenarios within a
 - **Robustness:** Excellent generalization capabilities in target identification.  
 - **Precision:** Accurate positioning in front of the selected target.  
 - **Effectiveness:** Full integration between stereoscopic vision algorithms and navigation control.
+
+P.S Delate folder turtlebot3 gazebo
