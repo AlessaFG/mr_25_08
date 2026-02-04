@@ -4,3 +4,19 @@
 [submodule "ros_ws/src/zed-ros2-examples"]
 	path = ros_ws/src/zed-ros2-examples
 	url = https://github.com/stereolabs/zed-ros2-examples.git
+[submodule "ros_ws/src/DynamixelSDK"]
+	path = ros_ws/src/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+	branch = humble
+[submodule "ros_ws/src/turtlebot3_simulations"]
+	path = ros_ws/src/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+	branch = humble
+[submodule "ros_ws/src/turtlebot3_msgs"]
+	path = ros_ws/src/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+	branch = humble
+[submodule "ros_ws/src/turtlebot3"]
+	path = ros_ws/src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+	branch = humble
